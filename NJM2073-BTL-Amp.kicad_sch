@@ -6143,7 +6143,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NJM2073"
 			(at 342.9 148.59 0)
 			(effects
 				(font
@@ -9841,7 +9841,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NJM2073"
 			(at 342.9 59.69 0)
 			(effects
 				(font
@@ -11996,7 +11996,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NJM2073"
 			(at 342.9 171.45 0)
 			(effects
 				(font
@@ -13405,7 +13405,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NJM2073"
 			(at 342.9 82.55 0)
 			(effects
 				(font
