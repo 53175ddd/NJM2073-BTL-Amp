@@ -12916,7 +12916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my:MJ-519"
 			(at 38.1 71.12 0)
 			(effects
 				(font
