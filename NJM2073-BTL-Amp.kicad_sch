@@ -5627,6 +5627,28 @@
 		)
 		(uuid "d7bbddda-0384-475a-8d88-4e32b889d837")
 	)
+	(label "R"
+		(at 45.72 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c766d70a-6497-453b-9529-663e73d21dc6")
+	)
+	(label "L"
+		(at 45.72 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da24c550-8f31-4eb1-ac6d-6fc09c2fc626")
+	)
 	(global_label "Input_R"
 		(shape output)
 		(at 52.07 99.06 0)
@@ -5899,7 +5921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 203.2 50.8 0)
 			(effects
 				(font
@@ -5982,7 +6004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal"
 			(at 39.37 99.06 0)
 			(effects
 				(font
@@ -6061,7 +6083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 366.522 63.5 90)
 			(effects
 				(font
@@ -6129,7 +6151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 342.9 145.288 0)
 			(effects
 				(font
@@ -6217,7 +6239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 305.7652 151.13 0)
 			(effects
 				(font
@@ -6441,7 +6463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 324.8152 173.99 0)
 			(effects
 				(font
@@ -6871,7 +6893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 305.7652 99.06 0)
 			(effects
 				(font
@@ -6941,7 +6963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 102.5652 137.16 0)
 			(effects
 				(font
@@ -7211,7 +7233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 317.5 65.278 90)
 			(effects
 				(font
@@ -7281,7 +7303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 64.4652 35.56 0)
 			(effects
 				(font
@@ -7551,7 +7573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 317.5 154.178 90)
 			(effects
 				(font
@@ -7757,7 +7779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 77.1652 35.56 0)
 			(effects
 				(font
@@ -7893,7 +7915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 335.28 65.278 90)
 			(effects
 				(font
@@ -8573,7 +8595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 305.7652 62.23 0)
 			(effects
 				(font
@@ -8779,7 +8801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 317.5 77.978 90)
 			(effects
 				(font
@@ -9557,7 +9579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 356.5652 130.81 0)
 			(effects
 				(font
@@ -9827,7 +9849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 342.9 56.388 0)
 			(effects
 				(font
@@ -10187,7 +10209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 335.28 77.978 90)
 			(effects
 				(font
@@ -10257,7 +10279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 324.8152 151.13 0)
 			(effects
 				(font
@@ -10327,7 +10349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 324.8152 85.09 0)
 			(effects
 				(font
@@ -10463,7 +10485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 369.2652 80.01 0)
 			(effects
 				(font
@@ -10533,7 +10555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 292.1 137.16 0)
 			(effects
 				(font
@@ -10883,7 +10905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 369.2652 41.91 0)
 			(effects
 				(font
@@ -11019,7 +11041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 366.522 152.4 90)
 			(effects
 				(font
@@ -11221,7 +11243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 29.21 32.766 0)
 			(effects
 				(font
@@ -11362,7 +11384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 369.2652 130.81 0)
 			(effects
 				(font
@@ -11848,7 +11870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 317.5 166.878 90)
 			(effects
 				(font
@@ -11982,7 +12004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 342.9 183.388 0)
 			(effects
 				(font
@@ -12274,7 +12296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 356.5652 41.91 0)
 			(effects
 				(font
@@ -12342,7 +12364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 335.28 154.178 90)
 			(effects
 				(font
@@ -12410,7 +12432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 335.28 166.878 90)
 			(effects
 				(font
@@ -12675,7 +12697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 203.2 139.7 0)
 			(effects
 				(font
@@ -13037,7 +13059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 369.2652 168.91 0)
 			(effects
 				(font
@@ -13175,7 +13197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 203.2 101.6 0)
 			(effects
 				(font
@@ -13257,7 +13279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 324.8152 62.23 0)
 			(effects
 				(font
@@ -13391,7 +13413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 342.9 94.488 0)
 			(effects
 				(font
@@ -13613,7 +13635,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 292.1 48.26 0)
 			(effects
 				(font
@@ -13693,7 +13715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 57.15 25.4 0)
 			(effects
 				(font
@@ -13897,7 +13919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 69.85 25.4 0)
 			(effects
 				(font
@@ -14051,7 +14073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
 			(at 44.45 25.4 0)
 			(effects
 				(font
@@ -14343,7 +14365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 51.7652 35.56 0)
 			(effects
 				(font
@@ -14549,7 +14571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 102.5652 48.26 0)
 			(effects
 				(font
@@ -14619,7 +14641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 305.7652 187.96 0)
 			(effects
 				(font
@@ -14753,7 +14775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 203.2 190.5 0)
 			(effects
 				(font
