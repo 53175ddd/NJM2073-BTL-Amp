@@ -16112,7 +16112,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 304.8 184.15 0)
+		(at 304.8 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16126,7 +16126,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0.22u"
@@ -16135,11 +16135,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 305.7652 187.96 0)
+			(at 303.8348 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
