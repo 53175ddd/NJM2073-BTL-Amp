@@ -3399,12 +3399,6 @@
 		(uuid "886615f3-dcaa-48a2-9272-bb14208a80a6")
 	)
 	(junction
-		(at 241.3 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b3a237c-5620-42c3-9edc-176a782c9948")
-	)
-	(junction
 		(at 323.85 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3493,12 +3487,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d87d686a-5041-4745-8515-e79033bd4891")
-	)
-	(junction
-		(at 241.3 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e108d7f3-8f1b-4dd6-85f9-389e71dafd12")
 	)
 	(junction
 		(at 25.4 127)
@@ -3750,16 +3738,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 76.2) (xy 241.3 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "139d192a-b3ea-4fdb-8e73-f526633f6f0a")
-	)
-	(wire
-		(pts
 			(xy 215.9 177.8) (xy 215.9 180.34)
 		)
 		(stroke
@@ -3807,16 +3785,6 @@
 			(type default)
 		)
 		(uuid "151ef4c4-0ce0-4fc7-bfe8-71702151009c")
-	)
-	(wire
-		(pts
-			(xy 238.76 165.1) (xy 241.3 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ab33c6-1f83-408e-bdce-e0186875a56d")
 	)
 	(wire
 		(pts
@@ -4207,16 +4175,6 @@
 			(type default)
 		)
 		(uuid "3978adb5-4c5a-4b9b-89e3-548d6b69aa79")
-	)
-	(wire
-		(pts
-			(xy 241.3 86.36) (xy 241.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "397f81ea-e1f2-4bc2-804b-67d9ec149698")
 	)
 	(wire
 		(pts
@@ -4690,16 +4648,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 76.2) (xy 256.54 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e8ef58-0e36-4737-b48b-0731ae10c2a6")
-	)
-	(wire
-		(pts
 			(xy 48.26 25.4) (xy 50.8 25.4)
 		)
 		(stroke
@@ -4807,16 +4755,6 @@
 			(type default)
 		)
 		(uuid "74c2f3db-d1f4-4f4b-b27a-bc93949edc57")
-	)
-	(wire
-		(pts
-			(xy 241.3 165.1) (xy 241.3 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75fe2297-ef79-41c2-938a-106931555d18")
 	)
 	(wire
 		(pts
@@ -5270,7 +5208,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 76.2) (xy 241.3 76.2)
+			(xy 238.76 76.2) (xy 256.54 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5367,16 +5305,6 @@
 			(type default)
 		)
 		(uuid "a848aca7-400b-4284-8b7e-364db440b3f7")
-	)
-	(wire
-		(pts
-			(xy 241.3 175.26) (xy 241.3 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a926a9bb-d323-481f-861e-d5e8275a06e0")
 	)
 	(wire
 		(pts
@@ -6220,7 +6148,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 165.1) (xy 256.54 165.1)
+			(xy 238.76 165.1) (xy 256.54 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7256,77 +7184,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12be7834-f9d8-45d1-9659-e73f247880f8")
-		(property "Reference" "R5"
-			(at 243.84 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 243.84 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 239.522 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "02193de8-1ec2-44fe-9de6-f45b9e0e5517")
-		)
-		(pin "1"
-			(uuid "edc7375a-6ef9-46dd-8e5d-f1aa282cf60f")
-		)
-		(instances
-			(project "NJM2073-BTL-Amp"
-				(path "/39400954-8ff9-4acb-a709-09671291994b"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 50.8 90)
+		(at 222.25 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7351,7 +7209,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 222.25 52.578 90)
+			(at 222.25 49.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +8772,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 91.44 90)
+		(at 133.35 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8939,7 +8797,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 133.35 93.218 90)
+			(at 133.35 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10075,72 +9933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f08b48a-ff2e-442c-bd53-30e53feb4fde")
-		(property "Reference" "#PWR024"
-			(at 241.3 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0e6f5a2-7624-4c26-8e65-3e65133d1fb9")
-		)
-		(instances
-			(project "NJM2073-BTL-Amp"
-				(path "/39400954-8ff9-4acb-a709-09671291994b"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:NJM4558")
 		(at 166.37 46.99 0)
 		(unit 3)
@@ -10568,7 +10360,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 135.89 0)
+		(at 151.13 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10582,7 +10374,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0.1u"
@@ -10591,11 +10383,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 152.0952 139.7 0)
+			(at 150.1648 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12176,7 +11968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 180.34 90)
+		(at 133.35 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12201,7 +11993,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 133.35 182.118 90)
+			(at 133.35 178.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12926,72 +12718,6 @@
 			(project "NJM2073-BTL-Amp"
 				(path "/39400954-8ff9-4acb-a709-09671291994b"
 					(reference "Rs4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8fc5db4-c85d-4e75-93b1-93371e3652eb")
-		(property "Reference" "#PWR032"
-			(at 241.3 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1328151-ed37-4043-8eba-560c6ad110df")
-		)
-		(instances
-			(project "NJM2073-BTL-Amp"
-				(path "/39400954-8ff9-4acb-a709-09671291994b"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13982,7 +13708,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 46.99 0)
+		(at 151.13 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13996,7 +13722,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0.1u"
@@ -14005,11 +13731,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 152.0952 50.8 0)
+			(at 150.1648 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14115,76 +13841,6 @@
 			(project "NJM2073-BTL-Amp"
 				(path "/39400954-8ff9-4acb-a709-09671291994b"
 					(reference "Copt2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbbf4660-7ec3-426d-b8c5-747e42193e0e")
-		(property "Reference" "R6"
-			(at 243.84 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 243.84 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 239.522 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "971cf238-10cf-44dd-b508-d2e2d14a8e77")
-		)
-		(pin "1"
-			(uuid "63bbc06f-7c1a-4331-b401-316a4b5d17f8")
-		)
-		(instances
-			(project "NJM2073-BTL-Amp"
-				(path "/39400954-8ff9-4acb-a709-09671291994b"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14494,7 +14150,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 190.5 90)
+		(at 184.15 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14519,7 +14175,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 184.15 192.278 90)
+			(at 184.15 188.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15904,7 +15560,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 101.6 90)
+		(at 184.15 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15929,7 +15585,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 184.15 103.378 90)
+			(at 184.15 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
