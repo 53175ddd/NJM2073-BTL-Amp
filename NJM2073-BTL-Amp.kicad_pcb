@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "PCB/")
 		)
 	)
 	(net 0 "")
@@ -41262,6 +41262,18 @@
 		(at 121.92 57.785 0)
 		(layer "F.SilkS")
 		(uuid "3f578304-90e4-4453-b9f7-641775fc2dde")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "v0.1"
+		(at 226.06 130.81 0)
+		(layer "F.SilkS")
+		(uuid "8a209ff8-6747-40a7-8826-1706aafe7621")
 		(effects
 			(font
 				(size 1.5 1.5)
