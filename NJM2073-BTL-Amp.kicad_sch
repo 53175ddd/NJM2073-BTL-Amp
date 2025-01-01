@@ -8446,7 +8446,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 335.28 59.69 90)
 			(effects
 				(font
@@ -10806,7 +10806,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 335.28 72.39 90)
 			(effects
 				(font
@@ -13101,7 +13101,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 335.28 148.59 90)
 			(effects
 				(font
@@ -13169,7 +13169,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 335.28 161.29 90)
 			(effects
 				(font
