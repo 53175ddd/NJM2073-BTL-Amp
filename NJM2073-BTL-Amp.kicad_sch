@@ -8705,6 +8705,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Dual_Separate")
+		(at 292.1 137.16 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37846da6-2137-4f53-946a-5c81560fa59a")
+		(property "Reference" "RV1"
+			(at 289.56 138.4301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer_Dual_Separate"
+			(at 289.56 135.8901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
+			(at 292.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual potentiometer, separate units"
+			(at 292.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6d227a1-460c-43eb-8339-c57e6d9e9cc9")
+		)
+		(pin "5"
+			(uuid "fa2ff15d-7fa4-4302-83d5-9ff1ed0beb6a")
+		)
+		(pin "1"
+			(uuid "6d5e3fa7-e064-427e-a66b-21abe266a064")
+		)
+		(pin "3"
+			(uuid "9ecc828b-641c-424a-9863-155ba299dbbf")
+		)
+		(pin "4"
+			(uuid "a3af2479-a3be-4579-b1cf-2d5907690e24")
+		)
+		(pin "6"
+			(uuid "635baab7-7170-48d3-b3f0-6cee059f7425")
+		)
+		(instances
+			(project "NJM2073-BTL-Amp"
+				(path "/39400954-8ff9-4acb-a709-09671291994b"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 323.85 101.6 0)
 		(unit 1)
@@ -9244,7 +9326,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 57.15 0)
+		(at 114.3 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9258,7 +9340,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
@@ -9267,11 +9349,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 112.522 57.15 90)
+			(at 116.078 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11139,88 +11221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Dual_Separate")
-		(at 292.1 137.16 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81f67e4b-8215-48f9-9c62-68ee7d27f399")
-		(property "Reference" "RV1"
-			(at 289.56 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer_Dual_Separate"
-			(at 289.56 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
-			(at 292.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual potentiometer, separate units"
-			(at 292.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c82985b-5947-4db2-8078-11a93978fdb6")
-		)
-		(pin "5"
-			(uuid "fa2ff15d-7fa4-4302-83d5-9ff1ed0beb67")
-		)
-		(pin "1"
-			(uuid "bcc562fb-d220-49de-9b15-f17056ffb1f9")
-		)
-		(pin "3"
-			(uuid "ce407402-a8eb-4b0a-b011-c95595943717")
-		)
-		(pin "4"
-			(uuid "a3af2479-a3be-4579-b1cf-2d5907690e21")
-		)
-		(pin "6"
-			(uuid "635baab7-7170-48d3-b3f0-6cee059f7422")
-		)
-		(instances
-			(project ""
-				(path "/39400954-8ff9-4acb-a709-09671291994b"
-					(reference "RV1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 163.83 57.15 0)
 		(unit 1)
@@ -12946,8 +12946,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Dual_Separate")
+		(at 292.1 48.26 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae2d98ec-93af-473c-8d51-38153131597d")
+		(property "Reference" "RV1"
+			(at 289.56 49.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer_Dual_Separate"
+			(at 289.56 46.9901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
+			(at 292.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual potentiometer, separate units"
+			(at 292.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c82985b-5947-4db2-8078-11a93978fdb6")
+		)
+		(pin "5"
+			(uuid "14a383f4-7aec-453a-a808-b0279c6dd827")
+		)
+		(pin "1"
+			(uuid "bcc562fb-d220-49de-9b15-f17056ffb1f9")
+		)
+		(pin "3"
+			(uuid "ce407402-a8eb-4b0a-b011-c95595943717")
+		)
+		(pin "4"
+			(uuid "c3d24e73-46f3-44f5-b21b-ce19f6fbce53")
+		)
+		(pin "6"
+			(uuid "d7409f1e-03f9-4986-b722-c42fd9896dab")
+		)
+		(instances
+			(project "NJM2073-BTL-Amp"
+				(path "/39400954-8ff9-4acb-a709-09671291994b"
+					(reference "RV1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 222.25 139.7 90)
+		(at 222.25 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12972,7 +13054,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 222.25 141.478 90)
+			(at 222.25 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14283,88 +14365,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Dual_Separate")
-		(at 292.1 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7f84c0f-0634-4c19-ab2b-0ab50fdb77c6")
-		(property "Reference" "RV1"
-			(at 289.56 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer_Dual_Separate"
-			(at 289.56 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
-			(at 292.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual potentiometer, separate units"
-			(at 292.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c82985b-5947-4db2-8078-11a93978fdb8")
-		)
-		(pin "5"
-			(uuid "fa2ff15d-7fa4-4302-83d5-9ff1ed0beb6a")
-		)
-		(pin "1"
-			(uuid "bcc562fb-d220-49de-9b15-f17056ffb1fb")
-		)
-		(pin "3"
-			(uuid "ce407402-a8eb-4b0a-b011-c95595943719")
-		)
-		(pin "4"
-			(uuid "a3af2479-a3be-4579-b1cf-2d5907690e24")
-		)
-		(pin "6"
-			(uuid "635baab7-7170-48d3-b3f0-6cee059f7425")
-		)
-		(instances
-			(project ""
-				(path "/39400954-8ff9-4acb-a709-09671291994b"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 57.15 25.4 90)
 		(unit 1)
@@ -14434,7 +14434,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 146.05 0)
+		(at 114.3 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14448,7 +14448,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
@@ -14457,11 +14457,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 112.522 146.05 90)
+			(at 116.078 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
